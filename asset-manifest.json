@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/meagansteinkamp/static/css/main.5f361e03.chunk.css",
+    "main.js": "/meagansteinkamp/static/js/main.99ef61be.chunk.js",
+    "main.js.map": "/meagansteinkamp/static/js/main.99ef61be.chunk.js.map",
+    "runtime-main.js": "/meagansteinkamp/static/js/runtime-main.ba745646.js",
+    "runtime-main.js.map": "/meagansteinkamp/static/js/runtime-main.ba745646.js.map",
+    "static/js/2.d31d81d1.chunk.js": "/meagansteinkamp/static/js/2.d31d81d1.chunk.js",
+    "static/js/2.d31d81d1.chunk.js.map": "/meagansteinkamp/static/js/2.d31d81d1.chunk.js.map",
+    "index.html": "/meagansteinkamp/index.html",
+    "precache-manifest.cbf07a5b8fd72c67b8277130447723e4.js": "/meagansteinkamp/precache-manifest.cbf07a5b8fd72c67b8277130447723e4.js",
+    "service-worker.js": "/meagansteinkamp/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/meagansteinkamp/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.d31d81d1.chunk.js.LICENSE.txt": "/meagansteinkamp/static/js/2.d31d81d1.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/meagansteinkamp/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba745646.js",
+    "static/js/2.d31d81d1.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.99ef61be.chunk.js"
+  ]
+}
