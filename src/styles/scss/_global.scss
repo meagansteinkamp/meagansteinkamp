@@ -85,24 +85,22 @@ $darkgrey: #808285;
 
 $defaultFontSize: 22px;
 
-@mixin futura {
-  font-family: futura-pt, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-@mixin baskerville {
-  font-family: baskerville-display-pt, serif;
+@mixin normalFont {
+  font-family: 'BenchNine', sans-serif;
   font-style: normal;
   font-weight: 400;
 }
 
-@mixin headerFont {
-  @include futura;
+@mixin lightFont {
+  font-family: 'BenchNine', sans-serif;
+  font-style: light;
+  font-weight: 300;
 }
 
-@mixin bodyFont {
-  font-size: $defaultFontSize;
-  @include baskerville;
+@mixin boldFont {
+  font-family: 'BenchNine', sans-serif;
+  font-style: light;
+  font-weight: 700;
 }
 
 /* =========================================
@@ -148,14 +146,14 @@ a {
 }
 
  h1 {
-  @include headerFont;
+  @include boldFont;
   color: #000;
   font-weight: 600;
   font-size: 62px;
 }
 
 p {
-  @include bodyFont;
+  @include normalFont;
 }
 
 
