@@ -1,11 +1,11 @@
 html, body {
   margin: 0;
-  // height: 100%;
+  height: 100%;
 }
 
 body {
-  overflow: overlay;
-  // position: absolute;
+  // overflow: overlay;
+  position: absolute;
   width: 100%;
 }
 
@@ -22,9 +22,9 @@ h1, h2, h3, p, a {
 }
 
 h1, h2, h3, p, a, br, img {
-  &::selection {
-    background: #e9157c;
-  }
+  // &::selection {
+  //   background: #e9157c;
+  // }
 }
 
 .section {

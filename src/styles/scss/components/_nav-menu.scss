@@ -1,0 +1,55 @@
+.nav-menu {
+  // box-sizing: border-box;
+  // padding: 38px 38px 38px 50px;
+  position: fixed;
+  transition: all .3s;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 0;
+  margin: 0;
+  background-color: #fff;
+  overflow: hidden;
+  &.active {
+    height: 100%;
+    display: block;
+  }
+  .logo-button-container {
+    .logo-container {
+      position: relative;
+      padding: 25px;
+      display: inline-block;
+      .logo {
+        max-width: 175px;
+        cursor: pointer;
+      }
+    }
+    .close-menu-button {
+      display: inline-block;
+      cursor: pointer;
+      position: absolute;
+      top: 25px;
+      right: 25px;
+    }
+  }
+  .nav-links-container {
+    .nav-links {
+      li {
+        @include normalFont;
+        text-align: center;
+        font-size: 40px;
+        cursor: pointer;
+        color: #000;
+      }
+      .icon {
+        position: relative;
+        display: inline-block;
+        left: 50%;
+        margin: 0;
+        transform: translateX(-80%);
+        padding: 0;
+        padding-right: 20px;
+      }
+    }
+  }
+}
