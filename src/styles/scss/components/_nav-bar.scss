@@ -11,7 +11,8 @@ nav.nav-bar {
       max-width: 250px;
       cursor: pointer;  
       @include media('<=900px') {
-        max-width: 175px;
+        // max-width: 175px;
+        max-width: 100%;
       }
     }
   }
@@ -51,7 +52,7 @@ nav.nav-bar {
     cursor: pointer;
     position: absolute;
     right: 25px;
-    bottom: 25px;
+    top: 25px;
     @include media('<=900px') {
       display: inline-block;
     }
